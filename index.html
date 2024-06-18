@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet " href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="menu-lateral">
+        <div class="logo">
+          <img class="icone" src="https://i.ibb.co/F8gBq6f/logo.png" />
+        </div>
+
+        <ul>
+          <li classe="item"><a href="#">Home</a></li>
+          <li classe="item"><a href="#"> New</a></li>
+          <li classe="item"><a href="#"> Popular</a></li>
+          <li classe="item"><a href="#"> Trending</a></li>
+          <li classe="item"><a href="#"> Categories</a></li>
+        </ul>
+
+        <div class="mobile-menu-icon">
+          <button class="btn-img">
+            <img
+              onclick="menuShow()"
+              class="icon"
+              src="https://i.ibb.co/pnGkV7m/icon-menu.png"
+            />
+          </button>
+        </div>
+      </nav>
+
+      <div class="nav-mobile">
+        <ul>
+          <li classe="item"><a href="#">Home</a></li>
+          <li classe="item"><a href="#"> New</a></li>
+          <li classe="item"><a href="#"> Popular</a></li>
+          <li classe="item"><a href="#"> Trending</a></li>
+          <li classe="item"><a href="#"> Categories</a></li>
+          <li class="x">
+            <img
+              class="icon"
+              onclick="menuShow()"
+              src="https://i.ibb.co/qWMfRNf/icon-menu-close-convert-io.png"
+            />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="conteudo">
+      <div class="pai1">
+        <div>
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="https://i.ibb.co/FKDXTmN/image-web-3-mobile.jpg"
+              id="imgP"
+            />
+            <source
+              media="(min-width:900px)"
+              srcset="https://i.ibb.co/rwq3dd3/image-web-3-desktop.jpg"
+              id="imgG"
+            />
+            <img
+              src="https://i.ibb.co/rwq3dd3/image-web-3-desktop.jpg "
+              alt="Chris standing up holding his daughter Elva"
+            />
+          </picture>
+
+          <div class="pai2">
+            <h2>The Bright Future of Web 3.0?</h2>
+            <div class="text-btn">
+              <p class="p">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button type="submit">READ MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="qdr-azul">
+          <h1>New</h1>
+          <div class="text" id="text1">
+            <h4>Hydrogen VS Electric Cars</h4>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="text" id="text2">
+            <h4>The Downsides of AI Artistry</h4>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="text" id="text3">
+            <h4>Is VC Funding Drying Up?</h4>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="qdr1">
+          <img src="https://i.ibb.co/yQCHHZZ/image-retro-pcs.jpg" />
+
+          <div id="text">
+            <h1>01</h1>
+
+            <h4>Reviving Retro PCs</h4>
+
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="qdr2">
+          <img src="https://i.ibb.co/RQ0pd7v/image-top-laptops.jpg" />
+          <div id="text">
+            <h1>02</h1>
+
+            <h4>Top 10 Laptops of 2022</h4>
+
+            <p>Our best picks for various needs and budget</p>
+          </div>
+        </div>
+
+        <div class="qdr3">
+          <img src="https://i.ibb.co/FYYLrhr/image-gaming-growth.jpg" />
+
+          <div id="text">
+            <h1>03</h1>
+
+            <h4>The Growth of Gaming</h4>
+
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Amy S.S</a>.
+    </footer>
+
+    <script src="icon.js"></script>
+  </body>
+</html>
+
+
+<div></div>*3
+
+</div>
+
+
+
+
+
